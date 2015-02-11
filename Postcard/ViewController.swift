@@ -32,7 +32,8 @@ class ViewController: UIViewController {
         
         messageLabel.textColor = UIColor.redColor()
         
-        enterMessageTextField.text = "" // clears out the text in the messageTextField; otherwise it would remain.
+        enterMessageTextField.text = ""
+        // clears out the text in the messageTextField; otherwise it would remain.
         // make the keyboard go away
         enterMessageTextField.resignFirstResponder()
         
